@@ -1,10 +1,10 @@
-##Brief : Élan Fitness
+# Brief : Élan Fitness
     .une salle de sport 
 
-##Description
+## Description
       .le projet est un page web qui bassée sur HTML5 et CSS ms sans frameworks 
 
-##Objectifs du projet
+## Objectifs du projet
       .Utiliser HTML5 pour la Creation 
       .Utiliser Css pour la mise en forme et le design
       .Utiliser trello pour la planification
@@ -12,7 +12,7 @@
       .Créer la page Contactez-nousOrganiser les fichiers du projet et permet l'accessibilité enters les pages.
       .UX/UI/SEO
 
-##Compétences / Technologies
+## Compétences / Technologies
          ● HTML5
          ● CSS3
          ● Responsive design
@@ -20,12 +20,12 @@
          ● UX
          ● UI
          ● SEO
-##Pages De Site
+## Pages De Site
        .Accueill      :  présentation général de la salle de sport  [Voir la page](./accueil.html)
        .Programmes    :  présentation des programmes / formules d'adhésion [Voir la page](./programmes.html)
        .A propos      :  présentation du projet / service [Voir la page](./apropos.html)
        .Contact-nous:    Formules de contact [Voir la page](./contactez_nous.html)
-##Structure Des Fichiers
+## Structure Des Fichiers
 ``text
        Brief/
            ├── accueil.html
