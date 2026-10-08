@@ -1,8 +1,8 @@
 # Brief : Élan Fitness
-    .une salle de sport 
+      -> une salle de sport 
 
 ## Description
-      .le projet est un page web qui bassée sur HTML5 et CSS ms sans frameworks 
+      -> le projet est un page web qui bassée sur HTML5 et CSS ms sans frameworks 
 
 ## Objectifs du projet
       .Utiliser HTML5 pour la Creation 
@@ -26,7 +26,7 @@
        .A propos      :  présentation du projet / service [Voir la page](./apropos.html)
        .Contact-nous:    Formules de contact [Voir la page](./contactez_nous.html)
 ## Structure Des Fichiers
-``text
+```text
        Brief/
            ├── accueil.html
            ├── programmes.html
@@ -36,7 +36,7 @@
            ├── styleContact.css
            ├── img/
            └── README.md
-           
+ ```          
 
 
        
