@@ -2,22 +2,29 @@ main
 {
     display: flex;
     width: 100%;
+    height: 100%;
+    /* min-height: 100vh; */
     padding:5%;
     padding-top: 2%;
-    background-color: white;
     margin: auto;
+    background-color: white;
 }
 section
 {
     flex: 1 1 0;
-    padding: 20px; 
-    height: 100%;
+   padding: 0 20px 20px 20px;
+    
     
 }
 
 section form table
 {
+    
+
    width: 70%;
+   margin: 0;
+   height: 350px ;
+
  
 }
 section form input,
@@ -27,8 +34,10 @@ section form textarea
     display: block;
     margin: auto;
     margin-bottom: 7px;
-    background-color:rgba(240, 88, 23, 0.3) ;
+    background-color:rgba(240, 88, 23, 0.2) ;
     font-family: sans-serif;
+   box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.12);
+
 }
 section form label
 {
@@ -48,36 +57,8 @@ section form input[type="submit"]
     font-weight: bold;
     border: none;
     border-radius: 10px;
-    box-shadow: 4px 2px 4px  rgb(145, 144, 144);
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.12);
     background-color: #F05817 ;
-}
-aside
-{
-     flex: 1 1 0;
-    padding: 20px;
-    height: 100%;
-    background-color:rgba(240, 88, 23, 0.3);;
-    border-radius: 10px;
-    
-    
-    
-}
-
-#Contact-title
-{
-    text-align: center;
-     position: relative;
-     padding-bottom: 5px;
-}
-#Contact-title::after {
-    content: "";
-    position: absolute;
-    left: 45%;
-    bottom: 0;
-    width: 100px;
-    height: 5px;
-    background-color: #F05817;
-    border-radius: 2px;
 }
 .input-box input,textarea {
     width: 100%;
@@ -86,5 +67,98 @@ aside
     border-radius: 5px;
     outline: none;
 }
+.input-box input:focus,textarea:focus
+{
+    border-color:#cf4c14;
+}
+aside
+{
+    flex: 1 1 0;
+    position: relative;
+    height: 100%;   
+}
 
 
+
+#Contact-title
+{
+    text-align: center;
+     position: relative;
+     padding-bottom: 7px;
+
+}
+#Contact-title::after {
+    content: "";
+    position: absolute;
+    left: 46%;
+    bottom: 0;
+    width: 100px;
+    height: 6px;
+    background-color: #F05817;
+    border-radius: 2px;
+}
+
+.Contact-container
+{
+    position:absolute;
+     background-color:rgba(240, 88, 23, 0.4);
+     padding: 20px;
+     width: 70%;
+     height: 350px ;
+     top: 0;
+     right: 0;
+     font-family: sans-serif;
+     border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.12);
+}
+aside .contact-title2
+{
+     color: black;
+     position: relative;
+     padding-bottom: 3px;
+}
+aside .contact-title2::after
+{
+    content: "";
+    position: absolute;
+    left: 2px;
+    bottom: 0;
+    width: 50px;
+    height: 4px;
+    background-color: black;
+    border-radius: 2px;
+    
+}
+aside .Contact-container p,h3
+{
+    
+    padding: 10px;
+}
+aside .Contact-container h3
+{
+      color: black;
+     position: relative;
+     padding-bottom: 3px;
+}
+aside .Contact-container h3::after
+{
+    content: "";
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    width: 50px;
+    height: 4px;
+    background-color: black;
+    border-radius: 2px;
+    
+}
+aside .Contact-container i
+{
+    padding-right: 15px;
+    font-size: 20px;
+    position: relative;
+    left: 40%;
+    color: #cf4c14;
+
+}
