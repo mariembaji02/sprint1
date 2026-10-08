@@ -2,14 +2,14 @@
       -> une salle de sport 
 
 ## Description
-      -> le projet est un page web qui bassée sur HTML5 et CSS ms sans frameworks 
+      -> le projet est une page web qui basée sur HTML5 et CSS3 mais sans frameworks 
 
 ## Objectifs du projet
       .Utiliser HTML5 pour la Creation 
       .Utiliser Css pour la mise en forme et le design
       .Utiliser trello pour la planification
       .Transformer le site one pager en un site de plusieurs pages reliées entre elles
-      .Créer la page Contactez-nousOrganiser les fichiers du projet et permet l'accessibilité enters les pages.
+      .Créer la page Contactez-nous Organiser les fichiers du projet et permet l'accessibilité enters les pages.
       .UX/UI/SEO
 
 ## Compétences / Technologies
