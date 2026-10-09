@@ -1,0 +1,218 @@
+/* tablette */
+@media (max-width:860px)
+{
+    
+  main{
+    /* background-color: rgb(164, 164, 209); */
+    gap: 10px;
+  }
+  
+    main section 
+    {
+        /* background-color: orange; */
+        margin-left: 20px;
+
+
+    }
+     main section table
+    {
+       width: 90%;
+        
+
+    }
+     main>aside .Contact-container
+     {
+        /* background-color: red; */
+        position: relative;
+        left: 20%;
+        padding: 10px;
+        width: 90%;
+     }
+   
+    
+     .cartes {
+            flex-direction: column;
+            gap: 12px;
+            justify-content: center;
+            align-items: center;
+            }
+     .carte {
+              
+                width: 70%;
+                 
+             }
+              /* .sur-titre
+     {
+        color: red;
+     } */
+       .hero-contenu {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+    }
+        .hero-image
+        {
+           width: 90%;
+           order: -1;
+
+        }
+      .apropos-texte h2 {
+        font-size: 30px;
+        line-height: 1.5;
+       
+        
+        }
+     
+        .apropos-texte p {
+        
+        font-size: 13px;
+        }
+        .apropos-texte  .sur-titre {
+        
+         font-size: 15px;
+        }
+       .apropos-contenu {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+    }
+        .apropos-image
+        {
+           width: 90%;
+           height: 300px;
+           order: -1;
+           
+          
+        }
+    
+}
+/* Mobile */
+@media (max-width:673px)
+{
+    main{
+         flex-direction: column;
+         align-items: center;
+      
+         width: 100%;
+       
+
+    }
+    main>section
+    {
+        width: 90%;
+    }
+    main>aside 
+     {
+        position: relative;
+       
+        
+        
+     }
+     main>aside .Contact-container
+     {
+       
+        left: 8%;
+        padding-left: 20vw;
+        padding-right: 20VW;
+
+     }
+   
+      main>section form table
+     {
+        
+        width: 60%;
+        position: relative;
+        left: 20%;
+       
+     }
+     .Apropos
+     {
+        /* background-color: yellow; */
+        width: 100%;
+        margin: 0;
+     }
+     
+     .apropos-texte h2 {
+        font-size: 26px;
+        line-height: 1.5;
+        text-align: center;
+        
+        }
+         .hero-texte
+         {
+
+          font-family: 'Poppins', Arial, sans-serif;
+         }
+        .apropos-texte p {
+        
+        font-size: 14px;
+        }
+        .apropos-texte  .sur-titre {
+         text-align: center;
+         font-size: 12px;
+        }
+        .apropos-contenu {
+        flex-direction: column;
+        /* align-items: stretch; */
+        gap: 25px;
+    }
+        .apropos-image
+        {
+           width: 100%;
+           height: 250px;
+           order: -1;
+           flex: none;
+          
+        }
+        .hero-texte h1 {
+        font-size: 26px;
+        line-height: 1.5;
+        text-align: center;
+        /* justify-content: center; */
+        }
+        .bouton
+        {
+         width: 100%;
+        }
+        .hero-texte p {
+        
+        font-size: 14px;
+        }
+        .hero-texte  .sur-titre {
+         font-size: 12px;
+         text-align: center;
+        }
+        
+    .hero-contenu {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+    }
+     .hero-image
+        {
+           width: 100%;
+           height: 250px;
+           order: -1;
+           flex: none;
+          
+        }
+     
+     .valeurs
+     {
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        
+     }
+     
+     .valeur
+     {
+       
+        padding: 30px 50px;
+        font-size: 16px;
+        width: 80%;
+     
+     }
+}
+
