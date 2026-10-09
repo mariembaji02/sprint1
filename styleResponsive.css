@@ -5,27 +5,30 @@
   main{
     /* background-color: rgb(164, 164, 209); */
     gap: 10px;
+    flex-direction: column;
+    margin: 0;
+   
   }
   
-    main section 
-    {
-        /* background-color: orange; */
-        margin-left: 20px;
-
-
-    }
+  main section
+  {
+   width: 100%;
+   padding-left:10vw ;
+   
+   text-align: center;
+  }
+  main aside{
+   width: 100%;
+  }
      main section table
     {
        width: 90%;
-        
-
     }
      main>aside .Contact-container
      {
-        /* background-color: red; */
         position: relative;
-        left: 20%;
-        padding: 10px;
+        /* left: 20%; */
+        margin: 5vw;
         width: 90%;
      }
    
@@ -41,21 +44,40 @@
                 width: 70%;
                  
              }
-              /* .sur-titre
-     {
-        color: red;
-     } */
+      
        .hero-contenu {
         flex-direction: column;
-        align-items: stretch;
+       
+         text-align: center;
+        
         gap: 25px;
     }
         .hero-image
         {
            width: 90%;
+           
            order: -1;
 
         }
+        .hero-texte h1 {
+        font-size: 26px;
+        line-height: 1.5;
+        /* text-align: center; */
+        /* justify-content: center; */
+        }
+        .bouton
+        {
+         width: 100%;
+        }
+        .hero-texte p {
+        
+        font-size: 14px;
+        }
+        .hero-texte  .sur-titre {
+         font-size: 12px;
+         text-align: center;
+        }
+        
       .apropos-texte h2 {
         font-size: 30px;
         line-height: 1.5;
@@ -73,13 +95,13 @@
         }
        .apropos-contenu {
         flex-direction: column;
-        align-items: stretch;
+        /* align-items: stretch; */
         gap: 25px;
     }
         .apropos-image
         {
            width: 90%;
-           height: 300px;
+          
            order: -1;
            
           
@@ -92,7 +114,6 @@
     main{
          flex-direction: column;
          align-items: center;
-      
          width: 100%;
        
 
@@ -108,21 +129,14 @@
         
         
      }
-     main>aside .Contact-container
-     {
-       
-        left: 8%;
-        padding-left: 20vw;
-        padding-right: 20VW;
-
-     }
+   
    
       main>section form table
      {
         
-        width: 60%;
+        width: 100%;
         position: relative;
-        left: 20%;
+        right: 2vw;
        
      }
      .Apropos
@@ -130,6 +144,7 @@
         /* background-color: yellow; */
         width: 100%;
         margin: 0;
+        
      }
      
      .apropos-texte h2 {
@@ -159,7 +174,7 @@
         .apropos-image
         {
            width: 100%;
-           height: 250px;
+           height: 200px;
            order: -1;
            flex: none;
           
@@ -168,7 +183,6 @@
         font-size: 26px;
         line-height: 1.5;
         text-align: center;
-        /* justify-content: center; */
         }
         .bouton
         {
@@ -185,7 +199,8 @@
         
     .hero-contenu {
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
+        margin-left: 5vw;
         gap: 25px;
     }
      .hero-image
@@ -214,5 +229,60 @@
         width: 80%;
      
      }
+       .cartes {
+            
+            /* background-color: red; */
+            width: 100vw;
+        
+           
+            }
+     .carte {
+               
+                width: 80%;
+                position: relative;
+                right: 4vw;
+             }
+      
+   .en-tete-contenu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .en-tete .menu-icon {
+        display: block;
+    }
+
+    .en-tete nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        z-index: 1000;
+        padding: 20px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .en-tete nav.menu-ouvert {
+        display: block;
+    }
+
+    .en-tete nav .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .pied-de-page .menu
+    {
+      display: none;
+    }
+    .pied-de-page .pied-haut
+    {
+      color: red;
+    }
 }
 
