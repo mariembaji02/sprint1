@@ -68,21 +68,25 @@ button:focus-visible {
 .section-titre h2 {
   font-size: 32px;
   margin-bottom: 16px;
+  color: #ed0c0ccb;
 }
 
 .section-titre h3 {
   font-size: 26px;
   margin-bottom: 12px;
+  color: #ed0c0ccb;
+
 }
 
 .section-titre p {
-  color: #4B5563;
+  color: #640f0ff6;
+  font-size: 13px;
 }
 
 .sur-titre {
   font-size: 14px;
   font-weight: 600;
-  color: #FF6B2C;
+  color: #df612b;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 12px;
@@ -97,25 +101,12 @@ button:focus-visible {
   text-align: center;
   cursor: pointer;
 }
-
-.bouton-principal {
-  background-color: #FF6B2C;
-  border: 1px solid #FF6B2C;
-  color: #FFFFFF;
-}
-
-.bouton-principal:hover {
-  background-color: #F05817;
-}
-
-.bouton-secondaire {
-  background-color: #FFFFFF;
+ 
+.bouton 
+{
+     background-color: #FFFFFF;
   border: 1px solid #0F1B2D;
   color: #0F1B2D;
-}
-
-.bouton-secondaire:hover {
-  background-color: #F3F4F6;
 }
 
 .cartes {
@@ -203,6 +194,7 @@ button:focus-visible {
 
 .menu a:hover {
   color: #FF6B2C;
+   transition: 0.5s;
 }
 
 .menu .lien-actif {
@@ -230,7 +222,10 @@ button:focus-visible {
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 24px;
-  
+  color: #C2410C;
+  /* text-align: center; */
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 4px 0 1px  rgba(220, 2, 2, 0.174);
 }
 
 .hero-description {
@@ -245,6 +240,26 @@ button:focus-visible {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+
+  
+}
+.boutons a
+{
+  border: 1px solid rgba(242, 112, 5, 0.409) ;
+  box-shadow: 5px 7px 15px rgba(242, 112, 5, 0.409);
+  
+}
+.boutons a:hover
+{
+   background-color: #ed0c0ccb;
+  border: none;
+  color: #FFFFFF;
+  transition: 0.5s;
+
+}
+.boutons .bouton-secondaire
+{
+  background-color: #ed0c0ccb;
 }
 
 .hero-image {
@@ -319,6 +334,10 @@ button:focus-visible {
   font-size: 36px;
   line-height: 1.2;
   margin-bottom: 20px;
+  color: #C2410C;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 4px 0 1px  rgba(220, 2, 2, 0.174);
 }
 
 .apropos-texte p {
@@ -347,7 +366,26 @@ button:focus-visible {
   font-weight: 600;
   color: #0F1B2D;
 }
-
+.carte:hover
+{
+     box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.12);
+     padding: 10px;
+      transition: 0.5s;
+}
+.formule:hover
+{
+    border: 2px solid #FF6B2C;
+    box-shadow: 10px 10px 10px 2px rgba(245, 92, 10, 0.12);
+    padding: 20px;
+     transition: 0.5s;
+}
+.formule .bouton:hover
+{
+  background-color:#FF6B2C ;
+  border: none;
+  color: white;
+   transition: 0.5s;
+}
 .apropos-image {
   flex: 5;
   min-width: 0;
